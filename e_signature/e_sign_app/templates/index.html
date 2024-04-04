@@ -1,0 +1,54 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Signature</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <div class="main">
+        <div class="title-tag">
+            <h1>E-Signature</h1>
+            <p>Please sign below using your mouse or touch screen device.</p>
+        </div> 
+        <canvas class="canvas" id="myCanvas" width="800" height="350"></canvas>
+        <div class="top">
+            <div class="block">
+              <p>Text Color Picker</p>
+              <input type="color" class="form-control" id="colorPicker" />
+            </div>
+            <div class="block">
+              <p>Background</p>
+              <input class="form-control" type="color" id="canvasColor" />
+            </div>
+            <div class="block">
+              <p>Font size</p>
+              <select id="fontPicker">
+                <option value="5">5 px</option>
+                <option value="10">10 px</option>
+                <option value="20">20 px</option>
+                <option value="30">30 px</option>
+                <option value="40">40 px</option>
+                <option value="50">50 px</option>
+              </select>
+            </div>
+          </div>
+        <div class="bottom">
+          <button type="button" class="btn btn-danger" id="clearButton">
+            Clear
+          </button>
+          <button type="button" class="btn btn-success" id="saveButton">
+            Save & download
+          </button>
+          <button type="button" class="btn btn-warning" id="retrieveButton">
+            Retrieve Saved Signature
+          </button>
+        </div>
+      </div>
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
