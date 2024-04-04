@@ -13,22 +13,17 @@ This is a project for creating an electronic signature web page using Django, Py
 
 ## Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/nikhilpentewar/e-signature-webpage.git
-```
-
-2. Navigate to the project directory:
+1. Navigate to the project directory:
 ```bash
 cd e-signature-webpage
 ```
 
-3. Create a virtual environment (optional but recommended):
+2. Create a virtual environment (optional but recommended):
 ```bash
 python -m venv env
 ```
 
-4. Activate the virtual environment:
+3. Activate the virtual environment:
 - On Windows:
 ```bash
 env\Scripts\activate
@@ -37,7 +32,7 @@ env\Scripts\activate
 ```bash
 source env/bin/activate
 ```
-5. Install the dependencies:
+4. Install the dependencies:
 ```bash
 pip install -r requirements.txt
 ```
