@@ -15,7 +15,7 @@ This is a project for creating an electronic signature web page using Django, Py
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/e-signature-webpage.git
+git clone https://github.com/nikhilpentewar/e-signature-webpage.git
 ```
 
 2. Navigate to the project directory:
