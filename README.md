@@ -8,8 +8,6 @@ This is a project for creating an electronic signature web page using Django, Py
 - Provides options to customize text color, background color, and font size.
 - Supports saving and downloading signatures as PNG images.
 - Stores signatures locally using browser local storage.
-- Provides a success page to notify users when their signature is saved successfully.
-- Handles 404 errors gracefully.
 
 ## Installation
 
